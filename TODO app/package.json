@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1"
+  },
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "Echo \"Error, no test specified\" && exit",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "Obioma Ikpe",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.22"
+  }
+}

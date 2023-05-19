@@ -10,3 +10,5 @@ const connectDB = (URL) => {
   
 
 }
+
+module.exports = connectDB
